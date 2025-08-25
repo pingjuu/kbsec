@@ -10,8 +10,8 @@ headers = {
 }
 
 data = {
-    "enc_data": "58aa92364c20a88d3de54c9cd440390daddffc952a4c3bfe0f23551bf2fc15a...",  # 실제 패킷에서 추출한 값 전체 넣기
-    "id": "a492a5b0-19fb-47e1-8bb12-fc5e9351963"  # Recovery Key
+    "enc_data": "c33a04e9f32a30750594f6fcf3a8f60a8dfd3e06fb41c7e3561ddfcf01fa81f5",  # 실제 패킷에서 추출한 값 전체 넣기
+    "id": "f5c92546-2fe9-456a-ada3-6ec1ea714928"  # Recovery Key
 }
 
 response = requests.post(url, headers=headers, data=json.dumps(data))
